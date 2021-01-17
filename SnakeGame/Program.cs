@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Linq;
 using System.Threading;
 using System.Collections.Generic;
@@ -90,15 +90,15 @@ namespace Snake_Game
 
 				switch (temp)
 				{
-				//If you touch your body or bound
-				case 1:
-				case 2:
-					isgameover = true;
-					break;
+					//If you touch your body or bound
+					case 1:
+					case 2:
+						isgameover = true;
+						break;
 					//If you touch apple
-				case 3:
-					isapple = true;
-					break;
+					case 3:
+						isapple = true;
+						break;
 				}
 
 				//Set head
